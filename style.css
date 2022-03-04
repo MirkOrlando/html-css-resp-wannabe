@@ -83,6 +83,12 @@ img {
       padding: 0;
       box-sizing: border-box;
     }
+
+    .row {
+      margin: 0;
+      width: 100vw;
+      padding-top: 1rem;
+    }  
   
     img {
       height: 100px;
@@ -104,12 +110,6 @@ img {
     background-color: #F2F2CD;
   }
 
-  .row {
-    margin: 0;
-    width: 100vw;
-    padding-top: 1rem;
-  }
-
   #lezioni .row .left,
   #lezioni .row .right {
     width: 100%;
@@ -120,7 +120,22 @@ img {
   #lezioni .row .left h3,
   #lezioni .row .right h3 {
     font-size: 1rem;
-}
+  }
+
+  /* steps */
+
+  #steps {
+    width: 100%;
+    background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 12px;
+  } 
 
 /* #endregion mediaquery */
 
