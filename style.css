@@ -81,6 +81,79 @@ img {
 }
 
 
+/* #region bonus */
+
+@media screen and (max-width:779px) {
+    /* common */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .row {
+        margin: 0;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    img {
+        height: 125px;
+        max-width: 100%;
+    }
+    /* lezioni */
+    #lezioni {
+        width: 100vw;
+        background-color: #F2F2CD;
+    }
+    #lezioni .row .left,
+    #lezioni .row .right {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #lezioni .row .left h3,
+    #lezioni .row .right h3 {
+        font-size: 1.25rem;
+    }
+    /* steps */
+    #steps {
+        width: 100vw;
+        background-color: white;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #steps .row>.left h3,
+    #steps .row>.central h3,
+    #steps .row>.right h3 {
+        font-size: 1.25rem;
+    }
+    /* why */
+    #why {
+        width: 100vw;
+        background-color: #F2F2CD;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        padding: 1rem;
+        font-size: 1rem;
+        margin: 0;
+    }
+    #why .row>.first h3,
+    #why .row>.second h3,
+    #why .row>.third h3 {
+        font-size: 1.25rem;
+    }
+}
+
+
+/* #endregion bonus */
+
+
 /* #region mediaquery */
 
 @media screen and (max-width:419px) {
@@ -92,7 +165,7 @@ img {
     }
     .row {
         margin: 0;
-        width: 100vw;
+        width: 100%;
         padding-top: 1rem;
     }
     img {
@@ -108,7 +181,7 @@ img {
     }
     /* lezioni */
     #lezioni {
-        width: 100%;
+        width: 100vw;
         background-color: #F2F2CD;
     }
     #lezioni .row .left,
@@ -123,7 +196,7 @@ img {
     }
     /* steps */
     #steps {
-        width: 100%;
+        width: 100vw;
         background-color: white;
     }
     #steps .row>.left,
@@ -140,13 +213,12 @@ img {
     }
     /* why */
     #why {
-        width: 100%;
+        width: 100vw;
         background-color: #F2F2CD;
     }
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-        width: 100%;
         padding: 11px;
         font-size: 12px;
         margin: 0;
